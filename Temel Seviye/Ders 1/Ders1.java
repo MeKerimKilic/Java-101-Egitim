@@ -28,7 +28,7 @@ public class Ders1 {
 		System.out.println("2.Kelime "+ stringDegerler[1]);
 		System.out.println("3.Kelime "+ stringDegerler[2]);
 		
-		System.out.println("Kelime uzunluğu "+ stringDeger.length());
+		System.out.println("Kelime uzunluÄŸu "+ stringDeger.length());
 	}
 	
 	
@@ -54,7 +54,7 @@ public class Ders1 {
 	public static void mainString1(String[] args) {
 		//char[] chars= {'M','e','r','h','a','b','a'};
 		//String stringDeger = new String(chars);
-		//bu bir konsola yazıdrma komutudur
+		//bu bir konsola yazÄ±drma komutudur
 		//System.out.println(stringDeger);
 		
 		String stringDeger="merhaba";
@@ -77,19 +77,19 @@ public class Ders1 {
 		boolean dogruDeger= true;
 		boolean yanlisDeger= false;
 		
-		System.out.println("Byte Değer: "+ byteDeger);
-		System.out.println("Short Değer: "+ shortDeger);
-		System.out.println("Integer Değer: "+ integerDeger);
-		System.out.println("Long Değer: "+ longDeger);
+		System.out.println("Byte DeÄŸer: "+ byteDeger);
+		System.out.println("Short DeÄŸer: "+ shortDeger);
+		System.out.println("Integer DeÄŸer: "+ integerDeger);
+		System.out.println("Long DeÄŸer: "+ longDeger);
 		
-		System.out.println("Float Değer: "+ floatDeger);
-		System.out.println("Double Değer: "+ doubleDeger);
+		System.out.println("Float DeÄŸer: "+ floatDeger);
+		System.out.println("Double DeÄŸer: "+ doubleDeger);
 		
-		System.out.println("Char Değer 1: "+ charDeger1);
-		System.out.println("Char Değer 2: "+ charDeger2);
+		System.out.println("Char DeÄŸer 1: "+ charDeger1);
+		System.out.println("Char DeÄŸer 2: "+ charDeger2);
 		
-		System.out.println("Boolean Doğru: "+ dogruDeger);
-		System.out.println("Boolean Yanlış: "+ yanlisDeger);
+		System.out.println("Boolean DoÄŸru: "+ dogruDeger);
+		System.out.println("Boolean YanlÄ±ÅŸ: "+ yanlisDeger);
 	}
 
 }
